@@ -58,7 +58,7 @@ python classifier.py -mode predict --data {validation-data-dir} --model {model-f
 You can evaluate your classifier's performance using:
 
 ```
-python classifier.py -mode eval --predictions {predictions-file} -- ground_truth {ground-truth-file}
+python classifier.py -mode eval --predictions {predictions-file} --ground_truth {ground-truth-file}
 ```
 
 Iterate these steps until you're satisfied with the model's performance.
